@@ -3,12 +3,12 @@
 ## pre-commit hooks:
 
  - terraform_fmt: Syntax checking for Terraform
- - detect_secrets: Ensure we don't commit anything sensitive
+ - detect-secrets: Ensure we don't commit anything sensitive
  - terraform_docs: Generate a INFO.md for the Terraform resources 
  
-## detect secrets: 
+## detect-secrets: 
 
-To add new Secrets to the existing Baseline, run the following command:
+To add new secrets to the existing baseline, run the following command:
 
 ```shell
 $ detect-secrets scan --baseline .secrets.baseline
