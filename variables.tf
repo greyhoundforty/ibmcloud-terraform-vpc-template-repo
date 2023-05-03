@@ -3,3 +3,8 @@ variable "existing_resource_group" {
   type        = string
   default     = null
 }
+
+variable "region" {
+  description = "IBM Cloud region where resources will be deployed"
+  default     = "us-south"
+}
