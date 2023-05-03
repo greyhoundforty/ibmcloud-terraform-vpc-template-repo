@@ -2,10 +2,24 @@
 
 ## pre-commit hooks:
 
+The following pre-commit hooks are defined in the `.pre-commit-config.yaml` file:
+
  - terraform_fmt: Syntax checking for Terraform
  - detect-secrets: Ensure we don't commit anything sensitive
  - terraform_docs: Generate a INFO.md for the Terraform resources 
  
+**Install pre-commit:**
+
+```
+$ pip install pre-commit
+```
+
+**Install hooks:**
+
+```
+$ pre-commit install
+```
+
 ## detect-secrets: 
 
 To add new secrets to the existing baseline, run the following command:
