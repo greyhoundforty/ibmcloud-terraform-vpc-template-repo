@@ -12,7 +12,6 @@ repos:
     - id: terraform_docs
       args: 
         - --args=--hide=requirements
-        - --args=--hide=providers
         - --args=--output-mode=inject
         - --hook-config=--path-to-file=INFO.md
         - --hook-config=--add-to-existing-file=true    
