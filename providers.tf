@@ -1,4 +1,3 @@
 provider "ibm" {
-  # Configuration options
-  # region = var.region
+  region = var.region
 }
